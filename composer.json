@@ -21,6 +21,46 @@
         }
     ],
     "require": {
-        "slim/slim": "4.*"
-    }
+        "slim/slim": "4.*",
+        "php": "^8.4",
+        "slim/psr7": "^1.8",
+        "vlucas/phpdotenv": "^5.6",
+        "php-di/php-di": "^7.1",
+        "ramsey/uuid": "^4.9",
+        "robmorgan/phinx": "^0.16.12",
+        "illuminate/database": "^13.24",
+        "illuminate/validation": "^13.24",
+        "illuminate/translation": "^13.24",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan": "^2.2",
+        "pestphp/pest": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8080 -t public"
+    },
+    "suggest": {
+        "ext-pdo_mysql": "Required when using MySQL as the database driver.",
+        "ext-pdo_pgsql": "Required when using PostgreSQL as the database driver."
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
