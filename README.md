@@ -12,9 +12,9 @@ A modern API-first starter kit for Slim Framework 4.
 - PHP-DI dependency injection container
 - Environment configuration using `.env`
 - PostgreSQL and MySQL database support
-- Eloquent ORM via `illuminate/database`
+- Doctrine ORM via `doctrine/orm`
+- Request validation using `symfony/validator`
 - Phinx database migrations
-- Request validation using `illuminate/validation`
 - UUID support
 - Monolog logging
 - Pest testing by default

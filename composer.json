@@ -28,10 +28,10 @@
         "php-di/php-di": "^7.1",
         "ramsey/uuid": "^4.9",
         "robmorgan/phinx": "^0.16.12",
-        "illuminate/database": "^13.24",
-        "illuminate/validation": "^13.24",
-        "illuminate/translation": "^13.24",
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "doctrine/orm": "^3.6",
+        "symfony/validator": "^8.1",
+        "symfony/property-access": "^8.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.95",
