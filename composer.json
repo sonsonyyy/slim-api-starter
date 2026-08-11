@@ -1,4 +1,25 @@
 {
+    "name": "sonsonyyy/slim-api-starter",
+    "description": "A modern API-first starter kit for Slim Framework 4.",
+    "keywords": [
+        "slim",
+        "slim-framework",
+        "slim4",
+        "api",
+        "starter",
+        "skeleton",
+        "php-api",
+        "rest-api",
+        "php-di",
+        "phinx"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erickson Salangsang",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "slim/slim": "4.*"
     }
