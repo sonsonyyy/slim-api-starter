@@ -15,7 +15,6 @@ A modern API-first starter kit for Slim Framework 4.
 - Doctrine ORM via `doctrine/orm`
 - Request validation using `symfony/validator`
 - Phinx database migrations
-- UUID support
 - Monolog logging
 - Pest testing by default
 - PHPStan static analysis
@@ -59,8 +58,6 @@ This starter is ideal for:
 - small to medium-sized backend services
 - learning Slim Framework
 - API prototypes
-- backend applications that need database support
-- developers who want more structure than the default Slim skeleton
 
 ## Package Type
 
@@ -69,8 +66,6 @@ This package is intended to be installed as a project:
 ```bash
 composer create-project sonsonyyy/slim-api-starter my-api
 ```
-
-It is not intended to be installed as a reusable library with `composer require`.
 
 ## License
 
